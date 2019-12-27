@@ -4,9 +4,15 @@
 function sayHello() {
     console.log('hello world');
 }
-sayHello();
+//sayHello();
 
 var say = function() {
     console.log('Hello');
 }
-say();
+//say();
+
+function sum() {
+
+}
+
+sum();
