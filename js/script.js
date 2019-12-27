@@ -4,5 +4,9 @@
 function sayHello() {
     console.log('hello world');
 }
-
 sayHello();
+
+var say = function() {
+    console.log('Hello');
+}
+say();
