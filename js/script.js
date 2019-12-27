@@ -14,8 +14,10 @@ var say = function() {
 var a = 21;
 var b = 2;
 
-function sum() {
-
+function sum(x, y) {
+    return x + y;
 }
 
-sum();
+console.log(sum(a, b));
+console.log(sum(2.4, 3.123));
+console.log(sum(43, 12));
