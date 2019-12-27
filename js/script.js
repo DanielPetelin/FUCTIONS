@@ -11,6 +11,9 @@ var say = function() {
 }
 //say();
 
+var a = 21;
+var b = 2;
+
 function sum() {
 
 }
