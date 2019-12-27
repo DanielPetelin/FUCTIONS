@@ -18,6 +18,14 @@ function sum(x, y) {
     return x + y;
 }
 
-console.log(sum(a, b));
-console.log(sum(2.4, 3.123));
-console.log(sum(43, 12));
+//console.log(sum(a, b));
+//console.log(sum(2.4, 3.123));
+//console.log(sum(43, 12));
+
+var sayHi = function(name) {
+    console.log('Hello, ' + name);
+};
+
+sayHi('Вася');
+sayHi('Андрей');
+sayHi('Джон');
